@@ -7,9 +7,14 @@ export const applications = [
     appliedDate: "2026-06-15",
     followUpDate: "2026-06-22",
     status: "Applied",
+    interview: {
+      date: "2026-08-02",
+      time: "10:00 AM",
+      mode: "Google Meet",
+    },
     hiringManager: "John Smith",
     contacts: [1, 2],
-    notes: "Strong React match. Follow up pending."
+    notes: "Strong React match. Follow up pending.",
   },
 
   {
@@ -20,9 +25,14 @@ export const applications = [
     appliedDate: "2026-06-18",
     followUpDate: "2026-06-25",
     status: "Interview Scheduled",
+    interview: {
+      date: "2026-08-02",
+      time: "10:00 AM",
+      mode: "Google Meet",
+    },
     hiringManager: "Sarah Wilson",
     contacts: [3],
-    notes: "Interview scheduled for next week."
+    notes: "Interview scheduled for next week.",
   },
 
   {
@@ -33,10 +43,18 @@ export const applications = [
     appliedDate: "2026-06-10",
     followUpDate: "2026-06-17",
     status: "Rejected",
+    interview: {
+      date: "2026-08-02",
+      time: "10:00 AM",
+      mode: "Google Meet",
+    },
+
+
+    
     hiringManager: "",
     contacts: [4, 5],
-    notes: "Rejected after resume screening."
-  }
+    notes: "Rejected after resume screening.",
+  },
 ];
 
 export const contacts = [
@@ -53,7 +71,7 @@ export const contacts = [
     followUpDate: "2026-06-23",
     status: "No Response",
     subject: "Frontend Developer Role",
-    notes: "Sent LinkedIn connection request."
+    notes: "Sent LinkedIn connection request.",
   },
 
   {
@@ -69,7 +87,7 @@ export const contacts = [
     followUpDate: "2026-06-24",
     status: "Replied",
     subject: "Referral Request",
-    notes: "Asked for updated resume."
+    notes: "Asked for updated resume.",
   },
 
   {
@@ -85,7 +103,7 @@ export const contacts = [
     followUpDate: "2026-06-26",
     status: "Replied",
     subject: "React Developer Position",
-    notes: "Interview scheduled."
+    notes: "Interview scheduled.",
   },
 
   {
@@ -101,7 +119,7 @@ export const contacts = [
     followUpDate: "2026-06-18",
     status: "Referral Given",
     subject: "Referral Request",
-    notes: "Provided internal referral."
+    notes: "Provided internal referral.",
   },
 
   {
@@ -117,6 +135,6 @@ export const contacts = [
     followUpDate: "2026-06-19",
     status: "No Response",
     subject: "Frontend Engineer Opening",
-    notes: "Follow-up required."
-  }
+    notes: "Follow-up required.",
+  },
 ];
